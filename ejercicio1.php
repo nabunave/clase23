@@ -48,3 +48,4 @@ class Persona
 $persona = new Persona("Carlos", 25, "carlos@gmail.com");
 $persona->imprimirDatos();
 
+?>
