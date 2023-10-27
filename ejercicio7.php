@@ -9,7 +9,7 @@ reciba como parámetro una cadena que indique la especie de la mascota
 ("perro" o "gato") y devuelva un objeto del tipo correspondiente.-->
 
 <?php
-
+ j 
 class Mascota {
     protected $nombre;
     protected $edad;
