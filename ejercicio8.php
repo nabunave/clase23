@@ -40,7 +40,7 @@ class Bicicleta
     use Color;
     public function imprimirDatosBicicleta()
     {
-        echo "Esta bicicleta tiene el color: " . $this->getColor();
+        echo " Esta bicicleta tiene el color: " . $this->getColor();
     }
 }
 

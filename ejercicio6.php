@@ -10,7 +10,7 @@ class ConexionDB {
     private $conexion;
 
     private function __construct() { // conectar a la base de datos (constructor privado para evitar crear instancias)
-        $this->conexion = new PDO("mysql:host=localhost;dbname=bdd", "usuario", "contrasena");
+        $this->conexion = new PDO("mysql:host=localhost;dbname=bdd", "root", "");
     }
 
     public static function obtenerInstancia() {
@@ -29,4 +29,5 @@ class ConexionDB {
 }
 
 $conexion = ConexionDB::obtenerInstancia();
+$bd = $conexion->getConexion();
 
